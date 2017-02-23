@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+.container {
+    width: 80%;
+    max-width: 500px;
+    margin: 30px auto;
+}
+.container label {
+    font-size: 1.2em;
+}
+.container input {
+    width: 60%;
+    display: block;
+    font-size: 1.2em;
+    margin: 10px auto;
+}
+.usersList img {
+    max-width: 100px;
+    vertical-align: middle;
+    margin-right: 30px;
+}
+
+.usersList a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+}
+
+
+.usersList div {
+    padding: 0;
+    margin: 0 0 3px 0;
+    background-color: #d0edc7;
+    cursor:pointer;
+}
+
+.usersList div:hover {
+    background-color: lightgray;
+    color: red;
+    cursor:pointer;
+}
